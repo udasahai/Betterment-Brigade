@@ -87,31 +87,25 @@ input[type=submit] {
 
 <!-- Page content -->
 <div class="w3-bar w3-white w3-large" width =100%>
-    <a href="#" class="w3-bar-item w3-button w3-red w3-mobile"><i class="fas fa-american-sign-language-interpreting"></i>New</a>   
-    <a href="#" class="w3-bar-item w3-button w3-red w3-mobile"><i class="fas fa-american-sign-language-interpreting"></i>Edit</a>  
+    <a href="#" class="w3-bar-item w3-button w3-red w3-mobile"><i class="fas fa-american-sign-language-interpreting"></i>Search Events</a>   
   </div>
 
 
 <div class="w3-content" style="max-width:1100px;">
-
-
   <!-- Explore Nature -->
-  
-  
   <div class="w3-container">
-    
             <header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
-                <img src="https://i.imgur.com/LVSiGIp.png" width="1000" height="1500">
+                <img src="https://i.imgur.com/LVSiGIp.png" width="1000" height="500">
                 <div class="w3-display-middle" style="width:65%">
                   <div class="w3-container w3-red">
-                    <h2><i class="fas fa-american-sign-language-interpreting"></i>Event Details</h2>
+                    <h2><i class="fas fa-american-sign-language-interpreting"></i>Search Events</h2>
                   </div>
                   <div class="w3-container w3-white w3-padding-1">
-                    <h3>Event Title:</h3>
+                    <h3>Enter Preferences Here:</h3>
                     <form action="/action_page.php" target="_blank">
                       <div class="w3-row-padding" style="margin:0 -16px;">
                         <div class="w3-margin-bottom">
-                          <input class="w3-input w3-border " type="text" placeholder="Your event name">
+                          <input class="w3-input w3-border " type="text" placeholder="search...">
                         </div>
                       </div>
                     </form>
@@ -121,82 +115,18 @@ input[type=submit] {
                             <form action="/action_page.php" target="_blank">
                               <div class="w3-row-padding" style="margin:0 -16px;">
                                 <div class="w3-margin-bottom">
-                                  <input class="w3-input w3-border" type="text" placeholder="Full Street Address" width>
+                                  <input class="w3-input w3-border" type="text" placeholder="enter zipcode..." width>
                                 </div>
                               </div>
                             </form>
                           </div>
-                          <div class="w3-container w3-white w3-padding-1">
-                          <h3>City:</h3>
-                            <form action="/action_page.php" target="_blank">
-                              <div class="w3-row-padding" style="margin:0 -16px;">
-                                <div class="w3-margin-bottom">
-                                  <input class="w3-input w3-border" type="text" placeholder="City name " width>
-                                </div>
-                              </div>
-                            </form>
-                          </div>
-                          <div class="w3-container w3-white w3-padding-1">
-                          <h3>State / Province / Region:</h3>
-                            <form action="/action_page.php" target="_blank">
-                              <div class="w3-row-padding" style="margin:0 -16px;">
-                                <div class="w3-margin-bottom">
-                                  <input class="w3-input w3-border" type="text" placeholder="Full Street Address" width>
-                                </div>
-                              </div>
-                            </form>
-                          </div>
-                          <div class="w3-container w3-white w3-padding-1">
-                              <h3>Zip Code:</h3>
-                                <form action="/action_page.php" target="_blank">
-                                  <div class="w3-row-padding" style="margin:0 -16px;">
-                                    <div class="w3-margin-bottom">
-                                      <input class="w3-input w3-border" type="text" placeholder="5 digits code" width>
-                                    </div>
-                                  </div>
-                                </form>
-                              </div>
-                          <div class="w3-container w3-white w3-padding-1">
-                                <h3>Date:</h3>
-                                <form action="/action_page.php" target="_blank">
-                                  <div class="w3-row-padding" style="margin:0 -16px;">
-                                    <div class="w3-margin-bottom">
-                                            <p>Starts</p>
-                                            <input id="date" type="datetime-local" value="2018-11-06T19:30"></br>
-                                            <p>Ends</p> 
-                                            <input id="date" type="datetime-local" value="2018-11-06T19:30">                          
-                                        </div>
-                                  </div>
-                                </form>
-                              </div>
-                              <div class="w3-container w3-white w3-padding-1">
-                                    <h3>Description:</h3>
-                                    <form action="/action_page.php" target="_blank" height="800">
-                                      <div class="w3-row-padding" style="margin:0 -16px;">
-                                        <div class="w3-margin-bottom">
-                                            <textarea id="froala-editor" ></textarea>
-                                          </div>
-                                      </div>
-                                    </form>
-                                  </div>
-                                  <div class="w3-container w3-white w3-padding-16">
-                                        <form action="/action_page.php" target="_blank" height="800">
-                                          <div class="w3-row-padding" style="margin:0 -16px;">
-                                            <div class="w3-margin-bottom">
-                                                    <input type="checkbox"> Send notification to all followers<br>
-                                                </div>
-                                          </div>
-                                        </form>
-                                      </div>
                                       <div class="w3-container w3-white w3-padding-1">
                                               <div class="w3-row-padding" style="margin:0 -16px;">
                                                 <div class="w3-margin-bottom">
-                                                        <input type="submit" value="Save">
-                                                        <input type="submit" id="submit"value="Submit" onclick="alert('your event is created successfully')">
+                                                        <input type="submit" id="submit"value="Submit" onclick="window.location='sample_results_page.html'">
                                                     </div>
                                               </div>
-                                          </div>
-                                  
+                                          </div>    
                 </div>
               </header>
   </div>
